@@ -1,0 +1,45 @@
+---
+baseURL: "((base_path))"
+languageCode: "en-us"
+title: "((site_title))"
+theme: "hugo-whisper-theme"
+themesDir: "themes"
+
+pygmentsCodeFences: true
+pygmentsCodefencesGuessSyntax: true
+pygmentsUseClasses: true
+
+summaryLength: 30
+
+menu:
+  main:
+  - name: "Overview"
+    url: "/docs"
+    weight: 1
+  - name: "Source"
+    url: "((source_url))"
+    weight: 2
+  - name: "Tutorials"
+    url: "/"
+    weight: 3
+
+params:
+  google_analytics_id: "((google_analytics_id))"
+  homepage_button_link: "/docs"
+  homepage_button_text: "Start the Tutorial"
+  homepage_intro: "((homepage_intro))"
+  # homepage_image: "((homepage_image))"
+
+  homepage_meta_tags:
+    meta_description: "((homepage_intro))"
+    meta_og_title: "((site_title))"
+    meta_og_type: "website"
+    meta_og_url: "https://tutorials.cloudfoundry.org/((base_path))"
+    meta_og_image: "https://tutorials.cloudfoundry.org/((base_path))/images/logo.png"
+    meta_og_description: "((homepage_intro))"
+    meta_twitter_card: "((homepage_intro))"
+    meta_twitter_site: '@cloudfoundry'
+    meta_twitter_creator: '@cloudfoundry'
+  logo:
+    mobile: "/images/logo-mobile.png"
+    standard: "/images/logo.png"

@@ -1,0 +1,9 @@
+base_url: https://cff-tutorials.rscale.dev
+base_path: trycf
+site_title: Try Cloud Foundry
+
+source_url: https://github.com/cloudfoundry-tutorials/trycf
+
+google_analytics_id: 
+
+homepage_intro: "Do you want to try Cloud Foundry but don't know where to start? This tutorial will show you how to try Cloud Foundry from your local terminal using a hosted Cloud Foundry instance. You can use your company's Cloud Foundry instance or one of the many as-a-service providers."
