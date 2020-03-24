@@ -1,5 +1,5 @@
 ---
-baseURL: "((base_path))"
+baseURL: ""
 languageCode: "en-us"
 title: "((site_title))"
 theme: "hugo-whisper-theme"
