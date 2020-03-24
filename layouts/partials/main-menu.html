@@ -3,8 +3,8 @@
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
     <li class="menu-item-{{ .Name | lower }}{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
-      <a href="{{ .URL | absURL }}">
-        <span>{{ .Name }} {{ .URL }}</span>
+      <a href="{{ .URL | relURL }}">
+        <span>{{ .Name }}</span>
       </a>
     </li>
     {{end}}
