@@ -14,7 +14,7 @@ summaryLength: 30
 menu:
   main:
   - name: "Overview"
-    url: "/docs"
+    url: "docs"
     weight: 1
   - name: "Source"
     url: "((source_url))"
