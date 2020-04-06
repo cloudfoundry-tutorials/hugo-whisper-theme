@@ -19,6 +19,8 @@
 
   {{ block "header_css" . }}{{ end }}
 
+  <link rel="stylesheet" href="{{ "css/custom-style.css" | relURL }}">
+
 </head>
 
 <body class='page {{ block "body_classes" . }}{{ end }}'>

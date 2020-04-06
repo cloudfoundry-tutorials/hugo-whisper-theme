@@ -1,0 +1,6 @@
+.intro > ul {
+	list-style-type: none;
+	margin-bottom: 40px;
+	font-style: italic;
+	font-size: 1.1em;
+}
