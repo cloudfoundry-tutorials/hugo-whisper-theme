@@ -10,11 +10,11 @@
 <div class="next-previous">
   <!-- Yes, they are backwards -->
   {{ with .Next }}
-    <a href="{{ .Permalink }}" class="previous"><i class="fas fa-chevron-left"></i> Previous</a>
+    <a href="/{{ .Permalink }}" class="previous"><i class="fas fa-chevron-left"></i> Previous</a>
   {{ end }}
 
   {{ with .Prev }}
-    <a href="{{ .Permalink }}" class="next">Next <i class="fas fa-chevron-right"></i></a>
+    <a href="/{{ .Permalink }}" class="next">Next <i class="fas fa-chevron-right"></i></a>
   {{ end }}
 </div>
 </div>
