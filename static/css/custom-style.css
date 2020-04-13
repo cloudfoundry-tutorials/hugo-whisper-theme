@@ -4,3 +4,7 @@
 	font-style: italic;
 	font-size: 1.1em;
 }
+
+.next-previous a.previous {
+	padding-right: 30px;
+}
