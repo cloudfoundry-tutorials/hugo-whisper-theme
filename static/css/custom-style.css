@@ -5,6 +5,14 @@
 	font-size: 1.1em;
 }
 
+.next-previous {
+	margin-top: 30px;
+}
+
 .next-previous a.previous {
-	padding-right: 30px;
+	text-align: left;
+}
+
+.next-previous a.next {
+	text-align: right;
 }

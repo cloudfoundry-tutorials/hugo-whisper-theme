@@ -8,14 +8,19 @@
   {{.Content}}
 </div>
 <div class="next-previous">
+  <div class="row">
   <!-- Yes, they are backwards -->
-  {{ with .Next }}
-    <a href="/{{ .Permalink }}" class="previous"><i class="fas fa-chevron-left"></i> Previous</a>
-  {{ end }}
-
-  {{ with .Prev }}
-    <a href="/{{ .Permalink }}" class="next">Next <i class="fas fa-chevron-right"></i></a>
-  {{ end }}
+    <div class="col">
+      {{ with .Next }}
+        <a href="/{{ .Permalink }}" class="previous"><i class="fas fa-chevron-left"></i> Previous: "{{ .Title }}"</a>
+      {{ end }}
+    </div>
+    <div class="col">
+      {{ with .Prev }}
+        <a href="/{{ .Permalink }}" class="next">Next: "{{ .Title }}" <i class="fas fa-chevron-right"></i></a>
+      {{ end }}
+    </div>
+  </div>  
 </div>
 </div>
 {{ end }}
